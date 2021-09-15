@@ -1,0 +1,323 @@
+section{
+    .banner{
+        position: relative;
+        width: 100%;
+        img{
+            width: 100%;
+            z-index: 1;
+        }
+    }
+    .title{
+        font-size: 2rem;
+        font-weight: 600;
+        font-family: "Oswald", sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-transform: uppercase;
+        color: #fff;
+        height: 90px;
+        background-color: #1c3093;
+    }
+    .taxi{
+        padding: 50px 0;
+        display: flex;
+        .left{
+            width: 70%;
+            padding-right: 100px;
+            margin-right: 40px;
+            @media (max-width: 1080px){
+                width: 60%;
+                padding-right: 30px;
+                margin-right: 10px;
+            }
+            @media (max-width: 800px){
+                width: 50%;
+                padding-right: 10px;
+                margin-right: 5;
+            }
+            @media (max-width: 600px){
+                width: 100%;
+                padding-left: 10px;
+            }
+            .ttl{
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                text-transform: uppercase;
+                color: #1c3093;
+                font-size: 1.8rem;
+                font-weight: 600;
+                @media (max-width: 800px) {
+                    font-size: 1.2rem;
+                }
+            }
+            .nd{
+                font-family: "Lato",sans-serif;
+                font-size: 1rem;
+                @media (max-width: 800px) {
+                    font-size: 0.7rem;
+                }
+                span{
+                    a{
+                        color: #1c3093;
+                        text-decoration: none;
+                        text-transform: uppercase;
+                    }
+                }
+            }
+            .list_icon{
+                margin: 40px 0; 
+                font-family: "Lato",sans-serif;              
+                .l_icon{
+                    display: flex;
+                    border: 1px solid #eaeaea;
+                    border-left: 0;
+                    border-right: 0;
+                    padding: 15px 0px;
+                    padding-left: 40px;
+                    img{
+                        margin-right: 40px;
+                        width: 40px;
+                        height: 45px;
+                    }
+                    .txt{
+                        font-size: 1.5rem;
+                        @media (max-width: 800px) {
+                            font-size: 1rem;
+                        }
+                        strong{
+                            color: #1c3093;
+                        }
+                    }
+                }
+            }
+            p{
+                font-size: 1.2rem;
+                font-family: "Lato",sans-serif; 
+                @media (max-width: 768px) {
+                    font-size: 0.8rem;
+                }
+                i{
+                    color: #1c3093;
+                    margin-right: 10px;
+                }
+            }
+            .box_img{
+                display: flex;
+                flex-wrap: wrap;
+                margin: 40px 0;
+                .img{
+                    width: calc(100%/2);
+                    height: 300px;
+                    @media (max-width:1080px){
+                        height: 270px;
+                    }
+                    @media (max-width: 800px) {
+                        height: 180px;
+                    }
+                    @media (max-width: 320px) {
+                        height: 100px;
+                    }
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        padding: 10px;
+                        border-radius: 40px;
+                    }
+                }
+            }
+            .ctc{
+                display: flex;
+                font-family: "Oswald", sans-serif;
+                h1{
+                    text-transform: uppercase;
+                    font-size: 2rem;
+                    color: #1c3093;
+                    
+                    margin-right: 20px;
+                    padding: 10px 0px;
+                    @media (max-width: 800px) {
+                        font-size: 1rem;
+                    }
+                    @media (max-width: 320px) {
+                        margin-right: 5px;
+                        font-size: 0.5rem;
+                    }
+                }
+                b{
+                    font-size: 1.8rem;
+                    text-align: center;
+                    padding: 10px 30px;
+                    background: #f3cc11;
+                    border-radius: 40px;
+                    letter-spacing: 2px;
+                    box-shadow: 5px 5px #c7c7c7;
+                    background: -moz-linear-gradient(top, #fcd71e 30%, #e9c003 70%);
+                    background: -o-linear-gradient(top, #fcd71e 30%, #e9c003 70%);
+                    background: -ms-linear-gradient(top, #fcd71e 30%, #e9c003 70%);
+                    background: -webkit-gradient(linear,left top,left bottom,color-stop(0.3, #fcd71e),color-stop(0.7, #e9c003));
+                    @media (max-width: 768px) {
+                        font-size: 1rem;
+                       
+                    }
+                    @media (max-width: 320px) {
+                        font-size: 1rem;
+                        padding: 5px;
+                    }
+                }
+            }
+        }
+        .right{
+            width: 50%;
+            @media (max-width: 600px){
+                display: none;
+            }
+            .box_book{
+                width: 400px;
+                margin-bottom: 40px;
+                .top_box{                
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background: #fed300;
+                    height: 60px;
+                    font-family: "Lato", sans-serif;
+                    border-top-left-radius: 7px;
+                    border-top-right-radius: 7px;
+                    h2{
+                        font-size: 26px;
+                        font-weight: bold;
+                    }
+                }
+                .bottom_box{
+                    height: 100%;
+                    background: #f1f1f1;
+                    padding: 10px 20px;
+                    font-size: 12px;
+                    font-family: "Lato", sans-serif;
+                    border-bottom-left-radius: 5px;
+                    border-bottom-right-radius: 5px;
+                    .text_book{
+                        color: #333333;
+                        font-weight: bold;
+                        margin: 5px 0;
+                        margin-top: 10px;
+                        font-size: 15px;
+                    }
+                    .icon{
+                        width: 40px;
+                        height: 40px;
+                        padding: 10px;
+                        background: #585858;
+                        color: #fff;
+                        font-size: 1rem;
+                        @media (max-width: 800px){
+                            font-size: 0.7rem;
+                           
+                        }
+                    }
+                    input{
+                        width:90%;
+                        height: 40px;
+                        border: 1px solid #eaeaea;
+                        color: #c5c5c5;
+                        padding: 0 15px;
+                    }
+                    .time{
+                        margin-top: 10px;
+                        display: flex;
+                       
+                        .date{
+                            margin-right: 38px;
+                            @media (max-width: 800px){
+                                margin-right: 20px;
+                            }
+                            label{
+                                font-size: 15px;
+                                color: #333333;
+                                font-weight: bold;
+                                margin: 5px 0;
+                            }
+                            .icon{
+                               font-size: 1rem;
+                                padding: 10px;
+                                @media (max-width: 800px){
+                                    padding: 5px;
+                                }
+                               
+                            }
+                            input{
+                                width: 122px;
+                               
+                            }
+                        }
+                        .none {
+                            margin-right: 0;
+                        }
+                    }
+                    select{
+                        width:87%;
+                        border: 1px solid #eaeaea;
+                        height: 40px;
+                        font-family: "Lato", sans-serif;
+                        color: #c5c5c5;
+                    }
+                    .submit_book{
+                        margin-top: 30px;
+                        margin-bottom: 20px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        .btn{
+                            width: 150px;
+                            height: 40px;
+                            border: 0;
+                            text-transform: uppercase;
+                            color: #fff;
+                            font-family: "Lato", sans-serif;
+                            background: #1c3093;
+                        }
+                    }
+                }
+            }
+            .box_b{
+                width: 400px;
+                .text{
+                    text-transform: uppercase;
+                    font-size: 1.7rem;
+                    color: #1c3093;
+                    font-family: "Oswald", sans-serif;
+                }
+                .form{
+                    margin-top: 40px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    .txt{
+                        width: 600px;
+                        padding: 20px 0px;
+                        border-left: 5px solid #c2c2c2;
+                        background: #ededed;
+                        font-family: "Lato", sans-serif;
+                        margin-bottom: 10px;
+                        &:hover{
+                            border-left: 10px solid #1c3093;
+                           
+                        }
+                        &:hover a{
+                            color: #1c3093;
+                        }
+                        a{                           
+                            text-transform: uppercase;
+                            color: #333333;
+                            text-decoration: none;
+                            padding: 0 20px;
+                            font-size: 1.2rem;
+                            font-weight: 500;           
+                        }
+                    }
+                    
+
+                }
+            }
+        }
+    }
+}
