@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chu</title>   
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="undefined" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<body>
+    <header>
+        <div class="header">
+            <div class="nav_menu">
+                <div class="logo">
+                    <a href="home.html">
+                        <img src="./images/logo.jpg" alt="">
+                    </a>
+                </div>
+        
+                <div class="menu">
+                    <ul>
+                        <li>
+                            <a href="home.html">Trang chủ</a>
+                        </li>
+                        <li>
+                            <a href="gioithieu.html">Giới thiệu</a>
+                        </li>
+                        <li>
+                            <a href="sanpham.html">Sản phẩm</a>
+                        </li>
+                        <li>
+                            <a href="duan.html">Dự án</a>
+                        </li>
+                        <li>
+                            <a href="tintuc.html">Tin tức</a>
+                        </li>
+                        <li>
+                            <a href="lienhe.html">Liên hệ</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="hotline">
+                    <span><img src="./images/phone.png" alt=""></span>
+                    <span>093 45 45 950</span>
+                </div>
+                <div class="guiyeucau">
+                    <a href="#">Gởi yêu cầu</a>
+                </div>
+                <label for="hide" class="navbar">
+                    <i class="fas fa-bars"></i>
+                </label>
+                <input type="checkbox" hidden class="checked" name="" id="hide">
+                <label for="hide" class="overlay"></label>
+                <label for="hide" class="menu_mobile">
+                    <a class="home" href="home.html"><img src="images/logo.png" alt=""></a>          
+                    <div class="close">
+                        <i class="fas fa-times"></i>   
+                    </div>   
+                    <hr>
+                    <ul>
+                        <li><a href="home.html"><i class="fas fa-home"></i> Home</a></li>             
+                        <li><a href="gioithieu.html"><i class="fas fa-address-card"></i> Giới thiệu</a></li>
+                        <li><a href="sanpham.html"><i class="fas fa-stream"></i> Sản phẩm</a></li>
+                        <li><a href="duan.html"><i class="fas fa-user-friends"></i> Dự án</a></li>
+                        <li><a href="tintuc.html"><i class="fas fa-layer-plus"></i> Tin tức</a></li>
+                        <li><a href="lienhe.html"><i class="fas fa-file-signature"></i> Liên hệ</a></li>
+                    </ul>
+
+                </label>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="nav">
+            <div class="banner">
+                <img src="./images/banner.jpg" alt="">
+            </div>
+            <div class="container">
+                <div class="hot">
+                    <h1>Sản phẩm tiêu biểu</h1>
+                    <div class="box_hot">
+                        <div class="bhot">
+                           <a href="detail.html">
+                               <div class="img">
+                                <img src="./images/sptb1.jpg" alt="">
+                               </div>
+                                <div class="name">
+                                    <b>Lắp pin năng lượng mặt trời với giá 0 đồng</b>
+                                </div>
+                                <div class="short">
+                                    Omega Solar sẽ chịu 100% chi phí đầu tư, khách hàng cho thuê lại mái không cần bỏ ra bất kì chi phí đầu tư nào trong suốt vòng đời dự án.
+                                </div>
+                                <div class="price">
+                                    Liên hệ
+                                </div>
+                           </a>
+                        </div>
+                        <div class="bhot">
+                            <a href="#">
+                                <div class="img">
+                                 <img src="./images/sptb12.jpg" alt="">
+                                </div>
+                                 <div class="name">
+                                     <b>ĐIỆN NĂNG LƯỢNG MẶT TRỜI 1MW</b>
+                                 </div>
+                                 <div class="short">
+                                    - 2273 Tấm pin năng lượng mặt trời Risen /JA/ Canadian Solar 440W - 9 bộ Solar Inverter Ginlong Solis–110K
+
+                                    - Tiết kiệm tiền điện hàng tháng                                 
+                                </div>
+                                 <div class="price">
+                                    10.990.000.000 đ
+                                 </div>
+                            </a>
+                         </div>
+                         <div class="bhot">
+                            <a href="#">
+                                <div class="img">
+                                 <img src="./images/sptb11.jpg" alt="">
+                                </div>
+                                 <div class="name">
+                                     <b>ĐIỆN NĂNG LƯỢNG MẶT TRỜI 800KW</b>
+                                 </div>
+                                 <div class="short">
+                                    - 1800 Tấm pin năng lượng mặt trời Risen/JA/Canadian Solar 440W - 8 bộ Solar Inverter Ginlong Solis – 50K
+
+                                    - Tiết kiệm tiền điện hàng tháng                                
+                                </div>
+                                 <div class="price">
+                                    8.799.000.000 đ
+                                 </div>
+                            </a>
+                         </div>
+                         <div class="bhot">
+                            <a href="#">
+                                <div class="img">
+                                 <img src="./images/sptb10.jpg" alt="">
+                                </div>
+                                 <div class="name">
+                                     <b>ĐIỆN NĂNG LƯỢNG MẶT TRỜI 600KW</b>
+                                 </div>
+                                 <div class="short">
+                                    -1321 Tấm pin năng lượng mặt trời Risen/JA/Canadian Solar 440W - 5 bộ Solar Inverter Ginlong Solis – 110K
+
+                                    - Sản lượng điện 72.000kWh/1 tháng
+                                    
+                                    - Tiết kiệm tiền điện hàng tháng từ 169 triệu - 173 triệu VND                                 </div>
+                                 <div class="price">
+                                    5.599.000.000 đ
+                                 </div>
+                            </a>
+                         </div>
+                         <div class="bhot">
+                            <a href="#">
+                                <div class="img">
+                                 <img src="./images/sptb9.jpg" alt="">
+                                </div>
+                                 <div class="name">
+                                     <b>ĐIỆN NĂNG LƯỢNG MẶT TRỜI 500KW</b>
+                                 </div>
+                                 <div class="short">
+                                    -1100 Tấm pin năng lượng mặt trời Risen/JA/Canadian Solar 440W - 5 bộ Solar Inverter Ginlong Solis – 110K
+
+                                    - Sản lượng điện 60.000kWh/1 tháng
+                                    
+                                    - Tiết kiệm tiền điện hàng tháng từ 140 triệu - 160 triệu VN                                 </div>
+                                 <div class="price">
+                                    5.499.000.000 đ
+                                 </div>
+                            </a>
+                         </div>
+                         <div class="bhot">
+                            <a href="#">
+                                <div class="img">
+                                 <img src="./images/sptb8.jpg" alt="">
+                                </div>
+                                 <div class="name">
+                                     <b>ĐIỆN NĂNG LƯỢNG MẶT TRỜI 400KW</b>
+                                 </div>
+                                 <div class="short">
+                                    -900 Tấm pin năng lượng mặt trời Risen/JA/Canadian Solar 440W - 4 bộ Solar Inverter Ginlong Solis – 110K
+
+                                    - Sản lượng điện 48.000kWh/1 tháng
+                                    
+                                    - Tiết kiệm tiền điện hàng tháng từ 115 triệu - 120 triệu VND                             </div>
+                                 <div class="price">
+                                    4.399.000.000 đ
+                                 </div>
+                            </a>
+                         </div>
+                         
+                         <div class="bhot">
+                            <a href="#">
+                                <div class="img">
+                                 <img src="./images/sptb7.jpg" alt="">
+                                </div>
+                                 <div class="name">
+                                     <b>ĐIỆN NĂNG LƯỢNG MẶT TRỜI 300KW</b>
+                                 </div>
+                                 <div class="short">
+                                    - Tấm pin năng lượng mặt trời Risen/JA/Canadian Solar 440W - 3 bộ Solar Inverter Ginlong Solis – 110K
+
+                                    - Sản lượng điện 36.000 kWh/1 tháng
+                                    
+                                    - Tiết kiệm tiền điện hàng tháng từ 86.400.000 đến 100.000.000VND                          </div>
+                                 <div class="price">
+                                    3.299.000.000 đ
+                                 </div>
+                            </a>
+                         </div>
+                         <div class="bhot">
+                            <a href="#">
+                                <div class="img">
+                                 <img src="./images/sptb6.jpg" alt="">
+                                </div>
+                                 <div class="name">
+                                     <b>ĐIỆN NĂNG LƯỢNG MẶT TRỜI 200KW</b>
+                                 </div>
+                                 <div class="short">
+                                    -454 Tấm pin năng lượng mặt trời Risen JA/Canadian Solar 440W - 2 bộ Solar Inverter Ginlong Solis – 110K
+
+                                    - Sản lượng điện 24.000kWh đến 30.000kWh/1 tháng
+                                    
+                                    - Tiết kiệm tiền điện hàng tháng từ 57.600.000 đến 60.000.000VND
+                                 </div>
+                                 <div class="price">
+                                    2.199.000.000 đ
+                                 </div>
+                            </a>
+                         </div>
+                         <div class="bhot">
+                            <a href="#">
+                                <div class="img">
+                                 <img src="./images/sptb5.jpg" alt="">
+                                </div>
+                                 <div class="name">
+                                     <b>ĐIỆN NĂNG LƯỢNG MẶT TRỜI 60KW</b>
+                                 </div>
+                                 <div class="short">
+                                    - 135 Tấm pin NLMT Risen / JA / Canadian Solar 440W - 1 bộ Solar Inverter Ginlong Solis-60K
+
+                                    - Sản lượng điện 7.200kWh/tháng, giúp tiết kiệm 16.800.000VND đến 17.200.000VND tiền điện/tháng.
+                                 </div>
+                                 <div class="price">
+                                    780.000.000 đ
+                                 </div>
+                            </a>
+                         </div>
+                         <div class="bhot">
+                            <a href="#">
+                                <div class="img">
+                                 <img src="./images/sptb4.jpg" alt="">
+                                </div>
+                                 <div class="name">
+                                     <b>ĐIỆN NĂNG LƯỢNG MẶT TRỜI 30KW</b>
+                                 </div>
+                                 <div class="short">
+                                    - 57 Tấm pin NLMT Risen / JA / Canadian Solar 440W - 1 bộ Solar Inverter Ginlong Solis-30K
+
+                                    - Sản lượng điện 3600kWh/tháng, giúp tiết kiệm 8.640.000VND tiền điện / tháng.
+                                 </div>
+                                 <div class="price">
+                                    390.000.000 đ
+                                 </div>
+                            </a>
+                         </div>
+                         <div class="bhot">
+                            <a href="#">
+                                <div class="img">
+                                 <img src="./images/sptb3.jpg" alt="">
+                                </div>
+                                 <div class="name">
+                                     <b>ĐIỆN NĂNG LƯỢNG MẶT TRỜI 15KW</b>
+                                 </div>
+                                 <div class="short">
+                                    - 34 Tấm pin NLMT Risen / JA / Canadian Solar 440W - 1 bộ Solar Inverter Ginlong Solis-15K
+
+                                    - Sản lượng điện 3480kWh/tháng, giúp tiết kiệm 8.350.000VND tiền điện/tháng.
+                                 </div>
+                                 <div class="price">
+                                    195.000.000 đ
+                                 </div>
+                            </a>
+                         </div>
+                         <div class="bhot">
+                            <a href="#">
+                                <div class="img">
+                                 <img src="./images/sptb2.jpg" alt="">
+                                </div>
+                                 <div class="name">
+                                     <b>ĐIỆN NĂNG LƯỢNG MẶT TRỜI 6KW</b>
+                                 </div>
+                                 <div class="short">
+                                    - 12 Tấm pin NLMT Risen / JA / Canadian Solar 440W - 1 bộ Solar Inverter Ginlong Solis-6K
+
+                                    - Sản lượng điện 720kWh / tháng, giúp tiết kiệm 1.730.000VND tiền điện / tháng.
+                                 </div>
+                                 <div class="price">
+                                    90.000.000 đ
+                                 </div>
+                            </a>
+                         </div>
+                    </div>
+                </div>
+                <div class="news">
+                    <h1>Tin tức</h1>
+                    <div class="box_news">
+                        <div class="new_item">
+                            <div class="images">
+                                <a href="tintucdetail.html">
+                                    <img src="./images/tintuc1.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="info">
+                                <div class="name"><a href="tintucdetail.html">Thị trường năng lượng mặt trời toàn cầu đạt tốc độ CAGR là 20,5% đến năm 2026</a></div>
+                                <div class="date">03/06/2021</div>
+                                <div class="short">Theo báo cáo được công bố bởi Allied Market Research, thị trường năng lượng mặt trời toàn cầu đã tạo ra 52,5 tỷ đô la vào năm 2018 và dự...</div>
+                                <div class="xemthem"><a href="#">Xem thêm</a></div>
+                            </div>
+                        </div>
+                        <div class="new_item">
+                            <div class="images">
+                                <a href="#">
+                                    <img src="./images/tintuc2.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="info">
+                                <div class="name"><a href="#">Anheuser-Busch: Sản xuất bia bằng năng lượng Mặt trời</a></div>
+                                <div class="date">02/06/2021</div>
+                                <div class="short">Anheuser Busch - một công ty sản xuất bia có trụ sở tại Hoa Kỳ, cho biết toàn bộ danh mục các nhãn hiệu bia và bia nội địa của họ hiện...</div>
+                                <div class="xemthem"><a href="#">Xem thêm</a></div>
+                            </div>
+                        </div>
+                        <div class="new_item">
+                            <div class="images">
+                                <a href="#">
+                                    <img src="./images/tt3.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="info">
+                                <div class="name"><a href="#">Việt Nam, Thụy Điển thúc đẩy hợp tác năng lượng tái tạo</a></div>
+                                <div class="date">01/06/2021</div>
+                                <div class="short">Đại sứ Thụy Điển tại Việt Nam Ann Mawe cho biết: Hiệp định Thương mại Tự do Việt Nam - EU (EVFTA) có hiệu lực vào tháng 8 vừa qua đang mở...</div>
+                                <div class="xemthem"><a href="#">Xem thêm</a></div>
+                            </div>
+                        </div>
+                        <div class="new_item">
+                            <div class="images">
+                                <a href="#">
+                                    <img src="./images/tt4.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="info">
+                                <div class="name"><a href="#">SP Group ký MOU với BGC Energy để đầu tư vào năng lượng tái tạo tại Việt Nam</a></div>
+                                <div class="date">30/05/2021</div>
+                                <div class="short">SP Group (SP) và Công ty Cổ phần Năng lượng BCG (BCG Energy), công ty con 100% vốn của Bamboo Capital JSC, đã ký Biên bản ghi nhớ hợp tác đầu tư vào...</div>
+                                <div class="xemthem"><a href="#">Xem thêm</a></div>
+                            </div>
+                        </div>
+                        <div class="new_item">
+                            <div class="images">
+                                <a href="#">
+                                    <img src="./images/tt5.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="info">
+                                <div class="name"><a href="#">Đà Nẵng khuyến khích kinh tế tư nhân phát triển năng lượng sạch nối lưới</a></div>
+                                <div class="date">29/05/2021</div>
+                                <div class="short">TP. Đà Nẵng đặt mục tiêu đến năm 2025, tỷ lệ nguồn năng lượng tái tạo, năng lượng mới trong tổng cung năng lượng sơ cấp trên địa bàn...</div>
+                                <div class="xemthem"><a href="#">Xem thêm</a></div>
+                            </div>
+                        </div>
+                        <div class="new_item">
+                            <div class="images">
+                                <a href="#">
+                                    <img src="./images/tt6.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="info">
+                                <div class="name"><a href="#">Công trình lưới điện 500 kV đầu tiên do tư nhân đầu tư tại Việt Nam</a></div>
+                                <div class="date">28/05/2021</div>
+                                <div class="short">Ngày 29/9/2020, tại Thôn Quán Thế, xã Phước Minh, huyện Thuận Nam, tỉnh Ninh Thuận, Công ty Cổ phần Đầu tư và Xây dựng Trung Nam (Trungnam Group)...</div>
+                                <div class="xemthem"><a href="#">Xem thêm</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="why">
+                    <h1>Tại sao nên sử dụng năng lượng mặt trời</h1>
+                    <div class="box_why">
+                        <div class="why_item">
+                            <div class="img">
+                                <img src="./images/1.jpg" alt="">
+                            </div>
+                            <div class="info">
+                                <div class="title">
+                                    Năng lượng sạch miễn phí
+                                </div>
+                                <div class="line"></div>
+                                <div class="short">
+                                    Chỉ cần có mái nhà, chỉ cần ánh nắng là gia đình bạn đã có nguồn năng lượng dồi dào miễn phí, đáp ứng được hầu hết nhu cầu năng lượng của gia đình, công ty và nhà máy của bạn.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="why_item">
+                            <div class="img">
+                                <img src="./images/2.jpg" alt="">
+                            </div>
+                            <div class="info">
+                                <div class="title">
+                                    Chi phí vận hành thấp
+                                </div>
+                                <div class="line"></div>
+                                <div class="short">
+                                    Hệ thống điện mặt trời không đòi hỏi bảo trì thường xuyên. Hệ thống chịu được các điều kiện khắc nghiệt nhất như mưa bão, nắng gió.                                </div>
+                            </div>
+                        </div>
+                        <div class="why_item">
+                            <div class="img">
+                                <img src="./images/3.jpg" alt="">
+                            </div>
+                            <div class="info">
+                                <div class="title">
+                                    Điện lực khuyến khích
+                                </div>
+                                <div class="line"></div>
+                                <div class="short">
+                                    Điện mặt trời áp mái giải quyết nhu cầu điện tại chỗ, giảm tải đường dây, tăng cường an ninh năng lượng đem lại lợi ích cho cả người dân, doanh nghiệp lẫn Điện Lực.                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <script>
+                        $('.box_why').slick({
+                        infinite: false,
+                        speed: 300,
+                        slidesToShow: 3,
+                        slidesToScroll: 3,
+                        autoplay: true,
+                        autoplaySpeed: 2000,
+                        responsive: [
+                            
+                            {
+                            breakpoint: 812,
+                            settings: {
+                                slidesToShow: 2,
+                                slidesToScroll: 2
+                            }
+                            },
+                            {
+                            breakpoint: 601,
+                            settings: {
+                                slidesToShow: 1,
+                                slidesToScroll: 1
+                            }
+                            }
+                        
+                        ]
+                        });
+                    </script>
+                </div>
+                <div class="whyo">
+                    <div class="whyo_box">
+                        <div class="info">
+                            <h1>Tại sao chọn Omega Solar ?</h1>
+                            <div class="line"></div>
+                            <div class="why_list">
+                                <div class="list">
+                                    <div class="img">
+                                        <img src="./images/whyicon1.png" alt="">
+                                    </div>
+                                    <div class="title">
+                                        Hệ thống đồng bộ, hiệu năng chuyển đổi xuất sắc
+                                    </div>
+                                </div>
+                                <div class="list">
+                                    <div class="img">
+                                        <img src="./images/whyicon2.png" alt="">
+                                    </div>
+                                    <div class="title">
+                                        Các tấm pin chất lượng cao hàng đầu thế giới                                    </div>
+                                </div>
+                                <div class="list">
+                                    <div class="img">
+                                        <img src="./images/whyicon3.png" alt="">
+                                    </div>
+                                    <div class="title">
+                                        Chịu được mọi điều kiện khắc nghiệt : nắng gió, mưa bão                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="whyo_box">
+                        <a href="#">
+                            <img src="./images/banner1.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="doitac">
+                    <h1>Đối tác của chúng tôi</h1>
+                    <div class="doit">
+                        <div class="dt">
+                            <div class="images">
+                                <img src="./images/doitac.jpg" alt="">
+                                
+                            </div>
+                            <div class="info">
+                                <div class="name">Ginlong Solis</div>
+                                <div class="short">Ginlong là nhà sản xuất solar inverter top 10 thế giới được thành lập năm 2005. Ginlong sản xuất các solar inverter theo hướng Multi MPPTs giúp thu được nhiều sản lượng nhất nhờ tối ưu hóa từng vùng tấm pin NLMT. Ginlong Solis đạt chứng nhận solar inverter tin cậy nhất thế giới 4 năm liền 2017, 2018, 2019, 2020. Giá thành cạnh tranh, chất lượng đỉnh cao, Ginlong Solis đang là lựa chọn số 1 cho các công trình điện mặt trời cho hộ gia đình và doanh nghiệp hiện nay.</div>
+                            </div>
+                        </div>
+                        <div class="dt">
+                            <div class="images">
+                                <img src="./images/doitac1.jpg" alt="">
+                                
+                            </div>
+                            <div class="info">
+                                <div class="name">SMA Solar Technology AG</div>
+                                <div class="short">SMA Solar Technology AG là nhà sản xuất Solar Inverter số 1 của Đức. SMA được thành lập vào năm 1981 và có trụ sở tại Niestetal, Northern Hesse, Đức. Các bộ Solar Inverter của SMA nổi tiếng với độ bền, khả năng vận hành tin cậy theo đúng chất Đức.</div>
+                            </div>
+                        </div>
+                        <div class="dt">
+                            <div class="images">
+                                <img src="./images/doitac2.jpg" alt="">
+                                
+                            </div>
+                            <div class="info">
+                                <div class="name">Trina Solar</div>
+                                <div class="short">Trina Solar được thành lập năm 1997, là công ty sản xuất tấm pin NLMT đứng đầu thế giới trong suốt thập niên 2000. Là một trong 10 công ty sản xuất tấm pin lớn nhất thế giới, Trina Solar đang lấy lại vị trí số 1 với tấm pin NLMT có công suất lớn nhất hiện nay Vertex 600W – công suất trên 600W / tấm pin.</div>
+                            </div>
+                        </div>
+                        <div class="dt">
+                            <div class="images">
+                                <img src="./images/doitac3.jpg" alt="">
+                                
+                            </div>
+                            <div class="info">
+                                <div class="name">Risen Energy</div>
+                                <div class="short">Risen Energy được thành lập năm 1986, là một trong những tập đoàn sản xuất tấm pin NLMT lâu đời nhất trên thế giới. Risen Energy là 1 trong 10 công ty trong nhóm Tier 1 Bloomberg, dẫn đầu các thị trường Trung Quốc, Đức, Úc, Mexico, Nhật, Mỹ. Risen Energy có các tấm pin giá thành trên chất lượng tốt nhất hiện nay, là lựa chọn hoàn hảo cho các dự án lớn MW và GW.</div>
+                            </div>
+                        </div>
+                        <div class="dt">
+                            <div class="images">
+                                <img src="./images/doitac3.jpg" alt="">
+                                
+                            </div>
+                            <div class="info">
+                                <div class="name">Hanwha Q Cells</div>
+                                <div class="short">Q-Cells, thành lập năm 1999 có trụ sở tại Bitterfeld-Wolfen, bang Saxony Anhalt nước Đức là nhà sản xuất pin mặt trời đứng đầu thế giới. Q Cells được tập đoàn Hanwha mua lại và đầu tư trở thành 1 trong 10 công ty sản xuất tấm pin năng lượng mặt trời lớn nhất thế giới. Chất lượng đỉnh cao, bền bỉ trong mọi điều kiện thời tiết là sự khác biệt so với phần còn lại của thế giới.</div>
+                            </div>
+                        </div>
+                       
+                    </div>
+                    <script type="text/javascript">
+                        $('.doit').slick({
+                            dots: true,
+                            infinite: true,
+                            arrows:false,
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                            autoplay: true,
+                            autoplaySpeed: 2000,
+                            });
+                    </script>
+                </div>
+                <div class="about">
+                    <h1>Về Omega Solar</h1>
+                    <div class="ab">“Omega Solar là công ty điện mặt trời số 1 tại Việt Nam, đã lắp đặt hơn 200 công trình điện mặt trời với tổng công suất trên 8000kWp.”
+                    </div>
+                    <div class="noidung">
+                        <div class="nd">
+                            <div class="nd_item">
+                                <div class="img">
+                                    <img src="./images/o1.jpg" alt="">
+                                </div>
+                                <div class="text">
+                                    <div class="title">1. Lắp đặt chuyên nghiệp</div>
+                                    <div class="short">Omega Solar với đội ngũ chuyên gia trên 12 năm kinh nghiệm thiết kế, lắp đặt hệ thống điện mặt trời theo tiêu chuẩn Châu Âu. Chúng tôi chăm chút từng bu lông, con ốc, hệ máng cáp tỉ mỉ, bởi chúng tôi hiểu hệ thống điện mặt trời thiết kế để hoạt động trên 30 năm.</div>
+                                </div>
+                            </div>
+                            <div class="nd_item">
+                                <div class="img">
+                                    <img src="./images/o2.jpg" alt="">
+                                </div>
+                                <div class="text">
+                                    <div class="title">2. Hệ thống hiệu năng cao, tin cậy và bền bỉ</div>
+                                    <div class="short">Các thiết bị của hệ thống điện mặt trời: tấm pin, solar inverter, các phụ kiện chuyên dụng là những thiết bị nhập khẩu chính hãng, chất lượng cao nhất. Omega Solar là đơn vị lắp đặt điện mặt trời đòi hỏi tiêu chuẩn cao nhất về tính đồng bộ, chất lượng thiết bị. Do đó, điện mặt trời do Omega Solar lắp đặt luôn đạt được hiệu năng xuất sắc.</div>
+                                </div>
+                            </div>
+                            <div class="nd_item">
+                                <div class="img">
+                                    <img src="./images/o3.jpg" alt="">
+                                </div>
+                                <div class="text">
+                                    <div class="title">3. Bảo hành lâu dài</div>
+                                    <div class="short">Đội ngũ bảo trì và dịch vụ chắm sóc khách hàng chuyên nghiệp của Omega Solar luôn đảm bảo các hệ thống điện mặt trời của chúng tôi lắp đặt vận hành trên 30 năm. Các tấm pin được bảo hành vật lý 12 năm, đảm bảo công suất 30 năm.</div>
+                                </div>
+                            </div>
+                            <div class="nd_item">
+                                <div class="img">
+                                    <img src="./images/o4.jpg" alt="">
+                                </div>
+                                <div class="text">
+                                    <div class="title">4. Chi phí lắp đặt thấp</div>
+                                    <div class="short">Chúng tôi nhập khẩu với số lượng lớn, loại bỏ những chi phí trung gian đồng thời tối ưu hóa chi phí lắp đặt, chúng tôi tiết kiệm cho khách hàng hàng trăm triệu đồng trong khi vẫn đảm bảo chất lượng hệ thống đỉnh cao.Chúng tôi đang dần biến năng lượng tái tạo trở thành nguồn năng lượng chính cho mỗi gia đình, mỗi doanh nghiệp bởi chi phí rẻ, sử dụng dài lâu.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="duan">
+                    <h1>Các dự án của chúng tôi</h1>
+                    <div class="project">
+                        <div class="item_project">
+                            <div class="img">
+                                <a href="#">
+                                    <img src="./images/da1.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="title">
+                                <a href="#">Dự án Điện Năng Lượng Mặt Trời Áp Mái 1164kWp huyện K'Bang - Gia Lai</a>
+                            </div>
+                        </div>
+                        <div class="item_project">
+                            <div class="img">
+                                <a href="#">
+                                    <img src="./images/da2.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="title">
+                               <a href="#"> Dự án Điện Năng Lượng Mặt Trời 1006kW ở Mang Yang, Gia Lai   </a> 
+                            </div>
+                        </div>
+                        <div class="item_project">
+                            <div class="img">
+                                <a href="#">
+                                    <img src="./images/da3.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="title">
+                                <a href="#">Dự án Điện Năng Lượng Mặt Trời 1003kW ở Mang Yang, Gia Lai</a>
+                            </div>
+                        </div>
+                        <div class="item_project">
+                            <div class="img">
+                                <a href="#">
+                                    <img src="./images/da4.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="title">
+                                <a href="#">Dự án Điện Năng Lượng Mặt Trời Áp Mái 970kWp KCN Tân Tạo - Quận Bình Tân</a>
+                            </div>
+                        </div>
+                        <div class="item_project">
+                            <div class="img">
+                                <a href="#">
+                                    <img src="./images/da5.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="title">
+                                <a href="#">Dự Án Điện Năng Lượng Mặt Trời Kết Hợp Sản Xuất Nông Nghiệp 528kWp Tỉnh Tây Ninh</a>
+                            </div>
+                        </div>
+                        <div class="item_project">
+                            <div class="img">
+                                <a href="#">
+                                    <img src="./images/da6.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="title">
+                               <a href="#">Dự Án Điện Năng Lượng Mặt Trời Kết Hợp Sản Xuất Nông Nghiệp 525kWp Tỉnh Tây Ninh</a>
+                            </div>
+                        </div>
+                        <div class="item_project">
+                            <div class="img">
+                                <a href="#">
+                                    <img src="./images/da7.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="title">
+                               <a href="#">Dự án Điện Năng Lượng Mặt Trời Áp Mái 420kW ở Tây Ninh</a>
+                            </div>
+                        </div>
+                        <div class="item_project">
+                            <div class="img">
+                                <a href="#">
+                                    <img src="./images/da8.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="title">
+                               <a href="#">Dự án Điện Năng Lượng Mặt Trời Áp Mái 194kWp An Dương Vương - Quận 8</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form">
+                    <div class="form_text">
+                        <h1>Yêu cầu omega solar tư vấn và báo giá</h1>
+                        <form>
+                            <div class="row">
+                                <div class="tem">
+                                    <label>Họ và tên</label>
+                                    <input type="text" name="" id="" placeholder="Nguyễn Văn A">
+                                </div>
+                                <div class="tem">
+                                    <label>Điện thoại</label>
+                                    <input type="text" name="" id="" placeholder="09xxxxxxx">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="tem">
+                                    <label>Email</label>
+                                    <input type="text" name="" id="" placeholder="Nguyễn Văn A">
+                                </div>
+                                <div class="tem">
+                                    <label>Địa chỉ</label>
+                                    <input type="text" name="" id="" placeholder="09xxxxxxx">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="tem temp">
+                                    <label>Nội dung yêu cầu</label>
+                                    <input type="text" name="" id="" maxlength="250" placeholder="Lắp điện mặt trời cho xxxx m2 mái nhà / mua tấm pin / solar inverter ....">
+                                </div>
+                                <div class="temp">
+                                   <div class="sub">
+                                    <button type="button">Gửi</button>
+                                   </div>
+                                </div>
+                                
+                            </div>
+                        </form>
+                    </div>
+                    <div class="form_info">
+                        <h1>LIÊN HỆ CHÚNG TÔI</h1>
+                        <div class="text">
+                            <div class="t1">
+                                <strong>Điện thoại</strong>
+                                <p>093 45 45 950</p>
+                            </div>
+                            <div class="t1">
+                                <strong>Địa chỉ:</strong>
+                                <p>Số 3, Đường số 6B, KDC Trung Sơn, Bình Hưng, Bình Chánh, TP. HCM</p>
+                            </div>
+                            <div class="t1">
+                                <strong>Email</strong>
+                                <p>sales@omega-solar.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer_top">
+            <div class="footer_t">
+                <div class="foot_col">
+                    <div class="logo_footer">
+                        <a href="home.html"><img src="./images/logo.jpg" alt=""></a>
+                    </div>
+                    <p class="text">
+                        Điện mặt trời áp mái số 1 Việt Nam <br>
+                        Hotline: 093 45 45 950
+                    </p>
+                </div>
+                <div class="foot_col">
+                    <h5>Gọi Omega - Điện xài thả ga, mát cả nhà</h5>
+                    <div class="form_mail">
+                        <form action="">
+                            <input type="text" class="textf" placeholder="Email / Số điện thoại">
+                            <button type= "button" class="subf">Đăng kí</button>
+                        </form>
+                    </div>
+                    <div class="info">
+                        <p>Công ty TNHH Omega Solar</p>
+                        <p>Địa chỉ: Số 3, Đường số 6B, KDC Trung Sơn, Bình Hưng, Bình Chánh, TP. HCM</p>
+                        <p>Điện thoại: 093 45 45 950</p>
+                        <p>Email: sales@omega-solar.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_bottom">
+            <div class="text">
+                Copyright &copy;2017. All rights reserved.
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

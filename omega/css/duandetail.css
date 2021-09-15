@@ -1,0 +1,397 @@
+.nav {
+  margin-top: 20px;
+}
+
+.nav .containerso {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1080px) {
+  .nav .containerso {
+    width: 100%;
+  }
+}
+
+.nav .containerso .content_new {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 1080px) {
+  .nav .containerso .content_new {
+    padding: 0 10px;
+  }
+}
+
+.nav .containerso .content_new .new_left {
+  width: 70%;
+  padding-right: 40px;
+}
+
+@media (max-width: 1080px) {
+  .nav .containerso .content_new .new_left {
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav .containerso .content_new .new_left {
+    width: 100%;
+    padding-right: 0px;
+  }
+}
+
+.nav .containerso .content_new .new_left .title {
+  font-size: 19px;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.nav .containerso .content_new .new_left .line {
+  width: 38px;
+  height: 3px;
+  background-color: #e78e47;
+  margin: 0 auto;
+  margin-top: 0.55em;
+  margin-bottom: 7px;
+}
+
+.nav .containerso .content_new .new_left .item_content {
+  margin-bottom: 20px;
+}
+
+.nav .containerso .content_new .new_left .item_content .content p {
+  padding: 5px 0px;
+}
+
+.nav .containerso .content_new .new_left .item_content .content p strong {
+  color: #ff6600;
+}
+
+.nav .containerso .content_new .new_left .item_content .content p img {
+  width: 100%;
+}
+
+.nav .containerso .content_new .new_left .item_content .content p span {
+  color: #333399;
+  font-weight: bold;
+}
+
+.nav .containerso .content_new .new_left .item_content .content p span strong {
+  padding-bottom: 10px;
+  font-size: 20px;
+  color: #003366;
+}
+
+.nav .containerso .content_new .new_right {
+  width: 30%;
+  font-family: 'Rubik', sans-serif;
+}
+
+@media (max-width: 768px) {
+  .nav .containerso .content_new .new_right {
+    display: none;
+  }
+}
+
+.nav .containerso .content_new .new_right .news {
+  padding: 40px;
+  background-color: #F5F4EF;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.nav .containerso .content_new .new_right .news h1 {
+  font-size: 20px;
+  line-height: 1.35em;
+  letter-spacing: -0.7px;
+  margin-top: 0;
+  font-weight: bold;
+}
+
+.nav .containerso .content_new .new_right .news .box_news {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.nav .containerso .content_new .new_right .news .box_news .new_item {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.nav .containerso .content_new .new_right .news .box_news .new_item .images a img {
+  max-width: 100%;
+}
+
+.nav .containerso .content_new .new_right .news .box_news .new_item .info {
+  margin-top: 5px;
+  text-align: left;
+  font-family: "Lato", sans-serif;
+}
+
+.nav .containerso .content_new .new_right .news .box_news .new_item .info .name {
+  margin-bottom: 5px;
+}
+
+.nav .containerso .content_new .new_right .news .box_news .new_item .info .name a {
+  font-size: 1.25rem;
+  color: #000;
+  text-decoration: none;
+}
+
+.nav .containerso .content_new .new_right .news .box_news .new_item .info .date {
+  color: #999999;
+  font-size: 1.125rem;
+  margin-bottom: 5px;
+}
+
+.nav .containerso .content_new .new_right .news .box_news .new_item .info .short {
+  font-size: 0.875rem;
+}
+
+.nav .containerso .content_new .new_right .news .box_news .new_item .info .xemthem a {
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  font-weight: bold;
+  color: #e78e47;
+  border-bottom: 3px solid;
+  margin-top: 15px;
+  padding-bottom: 5px;
+}
+
+.nav .containerso .duan {
+  margin-top: 40px;
+  padding: 13px 0px 0px;
+}
+
+.nav .containerso .duan h1 {
+  display: block;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  font-size: 2.5rem;
+  color: #000;
+  font-family: "Lato", sans-serif;
+}
+
+.nav .containerso .duan .project {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 15px;
+  padding: 0 15px;
+}
+
+.nav .containerso .duan .project .item_project {
+  width: calc(96%/4);
+  margin-right: 1%;
+  margin-bottom: 15px;
+  font-family: "Lato", sans-serif;
+}
+
+@media (max-width: 992px) {
+  .nav .containerso .duan .project .item_project {
+    width: calc(96%/3);
+  }
+}
+
+@media (max-width: 600px) {
+  .nav .containerso .duan .project .item_project {
+    width: calc(96%/2);
+  }
+}
+
+@media (max-width: 520px) {
+  .nav .containerso .duan .project .item_project {
+    width: 100%;
+  }
+}
+
+.nav .containerso .duan .project .item_project .img a img {
+  width: 100%;
+}
+
+.nav .containerso .duan .project .item_project .title a {
+  text-decoration: none;
+  color: #333;
+  font-size: 15px;
+  font-weight: bold;
+  padding-top: 8px;
+}
+
+.nav .containerso .form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: "Lato", sans-serif;
+  margin-top: 15px;
+  padding: 15px;
+}
+
+@media (max-width: 992px) {
+  .nav .containerso .form {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+.nav .containerso .form .form_text {
+  width: 70%;
+  padding: 15px;
+  border-radius: 20px 0 0 20px;
+  background: #eee;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 992px) {
+  .nav .containerso .form .form_text {
+    width: 100%;
+    border-radius: 20px;
+  }
+}
+
+.nav .containerso .form .form_text h1 {
+  text-transform: uppercase;
+  color: #e78e47;
+  font-size: 1.75rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.nav .containerso .form .form_text form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.nav .containerso .form .form_text form .row {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.nav .containerso .form .form_text form .row .temp {
+  width: 100% !important;
+}
+
+.nav .containerso .form .form_text form .row .temp .sub {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav .containerso .form .form_text form .row .temp .sub button {
+  border: none;
+  background: #E78E47;
+  color: #fff;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 10px 30px;
+  border-radius: 20px;
+  outline: none;
+}
+
+.nav .containerso .form .form_text form .row .tem {
+  width: calc(100%/2);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 0 10px;
+}
+
+.nav .containerso .form .form_text form .row .tem label {
+  width: 100%;
+  color: #333333;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.nav .containerso .form .form_text form .row .tem input {
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-bottom: 1px solid #e1e1e1;
+  margin-bottom: 20px;
+  background: transparent;
+  padding-left: 0;
+  outline: none;
+  color: #959595;
+  font-size: 13px;
+}
+
+.nav .containerso .form .form_info {
+  width: 30%;
+  padding: 15px 5px;
+  text-align: left;
+  background: #e78e47;
+  border-radius: 0 20px 20px 0;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 992px) {
+  .nav .containerso .form .form_info {
+    width: 100%;
+    border-radius: 20px;
+  }
+}
+
+.nav .containerso .form .form_info h1 {
+  color: #fff;
+  font-size: 1.75rem;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  font-weight: 500;
+}
+
+.nav .containerso .form .form_info .text {
+  margin: 20px 0;
+  color: #fff;
+  padding: 0 15px;
+}
+
+.nav .containerso .form .form_info .text .t1 {
+  margin-bottom: 25px;
+}
+
+.nav .containerso .form .form_info .text .t1 strong {
+  font-size: 1.125rem;
+}
+
+.nav .containerso .form .form_info .text .t1 p {
+  font-size: 1rem;
+  margin-top: 15px;
+}
+/*# sourceMappingURL=duandetail.css.map */
